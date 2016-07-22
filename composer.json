@@ -24,7 +24,8 @@
     "illuminate/pagination": "~5.0",
     "illuminate/console": "~5.0",
     "illuminate/filesystem": "~5.0",
-    "prettus/laravel-validation": "1.1.*"
+    "prettus/laravel-validation": "1.1.*",
+    "jenssegers/mongodb":"3.0.*"
   },
   "autoload": {
     "psr-4": {
