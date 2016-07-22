@@ -1,6 +1,6 @@
 {
   "name": "folkevil/moloquent-repository",
-  "description": "Laravel 5 - Repositories to  the database layer",
+  "description": "Laravel 5 - Repositories to  the database layer with MongoDB support",
   "keywords": ["laravel", "repository", "eloquent", "model", "cache"],
   "license": "MIT",
   "authors": [
