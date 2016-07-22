@@ -294,6 +294,23 @@ Done, done that just now you do bind its interface for your real repository, for
 ```php
 App::bind('{YOUR_NAMESPACE}Repositories\PostRepository', '{YOUR_NAMESPACE}Repositories\PostRepositoryEloquent');
 ```
+Or, edit in AppServiceProvider.php
+```php
+ private $bindings = [
+        '\\{YOUR_NAMESPACE}\\Repositories\\LocationRepository' => '\\{YOUR_NAMESPACE}\\Repositories\\LocationRepositoryEloquent',
+    ];
+
+
+    public function register()
+    {
+        foreach ($this->bindings as $interface => $implementation) {
+            $this->app->bind($interface, $implementation);
+        }
+    }
+```
+    
+
+
 
 And use
 
