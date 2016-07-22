@@ -1,7 +1,7 @@
 <?php
 namespace Prettus\Repository\Events;
 
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Prettus\Repository\Contracts\RepositoryInterface;
 
 /**
