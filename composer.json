@@ -1,5 +1,5 @@
 {
-  "name": "folkevil/moloquent-repository",
+  "name": "johnrazmus/moloquent-repository",
   "description": "Laravel 5 - Repositories to  the database layer with MongoDB support",
   "keywords": ["laravel", "repository", "eloquent", "model", "cache"],
   "license": "MIT",
@@ -25,7 +25,7 @@
     "illuminate/console": "~5.0",
     "illuminate/filesystem": "~5.0",
     "prettus/laravel-validation": "1.1.*",
-    "jenssegers/mongodb":"3.0.*"
+    "moloquent/moloquent":"~0.4.0"
   },
   "autoload": {
     "psr-4": {

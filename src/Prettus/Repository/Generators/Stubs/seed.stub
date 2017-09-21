@@ -3,7 +3,7 @@
 $NAMESPACE$
 
 use Illuminate\Database\Seeder;
-use Jenssegers\Mongodb\Eloquent\Model;
+use Moloquent\Eloquent\Model;
 
 class $CLASS$ extends Seeder
 {

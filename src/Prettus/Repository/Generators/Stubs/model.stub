@@ -2,7 +2,7 @@
 
 $NAMESPACE$
 
-use Jenssegers\Mongodb\Eloquent\Model;
+use Moloquent\Eloquent\Model;
 use Prettus\Repository\Contracts\Transformable;
 use Prettus\Repository\Traits\TransformableTrait;
 
