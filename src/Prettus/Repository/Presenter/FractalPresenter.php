@@ -1,5 +1,5 @@
 <?php
-namespace Prettus\Repository\Presenter;
+namespace MoloPrettus\Repository\Presenter;
 
 use Exception;
 use Illuminate\Database\Eloquent\Collection as EloquentCollection;
@@ -11,7 +11,7 @@ use League\Fractal\Pagination\IlluminatePaginatorAdapter;
 use League\Fractal\Resource\Collection;
 use League\Fractal\Resource\Item;
 use League\Fractal\Serializer\SerializerAbstract;
-use Prettus\Repository\Contracts\PresenterInterface;
+use MoloPrettus\Repository\Contracts\PresenterInterface;
 
 /**
  * Class FractalPresenter

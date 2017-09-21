@@ -1,5 +1,5 @@
 <?php
-namespace Prettus\Repository\Events;
+namespace MoloPrettus\Repository\Events;
 
 /**
  * Class RepositoryEntityDeleted

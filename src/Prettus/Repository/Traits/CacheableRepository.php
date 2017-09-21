@@ -1,10 +1,10 @@
 <?php
 
-namespace Prettus\Repository\Traits;
+namespace MoloPrettus\Repository\Traits;
 
 use Illuminate\Contracts\Cache\Repository as CacheRepository;
-use Prettus\Repository\Contracts\CriteriaInterface;
-use Prettus\Repository\Helpers\CacheKeys;
+use MoloPrettus\Repository\Contracts\CriteriaInterface;
+use MoloPrettus\Repository\Helpers\CacheKeys;
 use ReflectionObject;
 use Exception;
 

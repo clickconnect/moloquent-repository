@@ -1,5 +1,5 @@
 <?php
-namespace Prettus\Repository\Exceptions;
+namespace MoloPrettus\Repository\Exceptions;
 
 use Exception;
 

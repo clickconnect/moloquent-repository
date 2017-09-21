@@ -1,5 +1,5 @@
 <?php
-namespace Prettus\Repository\Contracts;
+namespace MoloPrettus\Repository\Contracts;
 
 /**
  * Interface CriteriaInterface

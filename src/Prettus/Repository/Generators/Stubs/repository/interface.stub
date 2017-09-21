@@ -2,7 +2,7 @@
 
 $NAMESPACE$
 
-use Prettus\Repository\Contracts\RepositoryInterface;
+use MoloPrettus\Repository\Contracts\RepositoryInterface;
 
 /**
  * Interface $CLASS$Repository

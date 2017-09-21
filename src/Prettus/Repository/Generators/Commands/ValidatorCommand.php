@@ -1,10 +1,10 @@
 <?php
-namespace Prettus\Repository\Generators\Commands;
+namespace MoloPrettus\Repository\Generators\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
-use Prettus\Repository\Generators\FileAlreadyExistsException;
-use Prettus\Repository\Generators\ValidatorGenerator;
+use MoloPrettus\Repository\Generators\FileAlreadyExistsException;
+use MoloPrettus\Repository\Generators\ValidatorGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

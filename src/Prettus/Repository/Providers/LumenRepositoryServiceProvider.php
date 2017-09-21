@@ -1,5 +1,5 @@
 <?php
-namespace Prettus\Repository\Providers;
+namespace MoloPrettus\Repository\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

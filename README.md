@@ -166,7 +166,7 @@ class Post extends Eloquent { // or Ardent, Or any other Model Class
 ```php
 namespace App;
 
-use Prettus\Repository\Eloquent\BaseRepository;
+use MoloPrettus\Repository\Eloquent\BaseRepository;
 
 class PostRepository extends BaseRepository {
 
@@ -452,8 +452,8 @@ Criteria are a way to change the repository of the query by applying specific co
 
 ```php
 
-use Prettus\Repository\Contracts\RepositoryInterface;
-use Prettus\Repository\Contracts\CriteriaInterface;
+use MoloPrettus\Repository\Contracts\RepositoryInterface;
+use MoloPrettus\Repository\Contracts\CriteriaInterface;
 
 class MyCriteria implements CriteriaInterface {
 
@@ -505,7 +505,7 @@ $posts = $this->repository->getByCriteria(new MyCriteria());
 Setting the default Criteria in Repository
 
 ```php
-use Prettus\Repository\Eloquent\BaseRepository;
+use MoloPrettus\Repository\Eloquent\BaseRepository;
 
 class PostRepository extends BaseRepository {
 
@@ -552,8 +552,8 @@ To use the Criteria in your repository, you can add a new criteria in the boot m
 ####Enabling in your Repository
 
 ```php
-use Prettus\Repository\Eloquent\BaseRepository;
-use Prettus\Repository\Criteria\RequestCriteria;
+use MoloPrettus\Repository\Eloquent\BaseRepository;
+use MoloPrettus\Repository\Criteria\RequestCriteria;
 
 
 class PostRepository extends BaseRepository {
@@ -763,9 +763,9 @@ Add a layer of cache easily to your repository
 Implements the interface CacheableInterface and use CacheableRepository Trait.
 
 ```php
-use Prettus\Repository\Eloquent\BaseRepository;
-use Prettus\Repository\Contracts\CacheableInterface;
-use Prettus\Repository\Traits\CacheableRepository;
+use MoloPrettus\Repository\Eloquent\BaseRepository;
+use MoloPrettus\Repository\Contracts\CacheableInterface;
+use MoloPrettus\Repository\Traits\CacheableRepository;
 
 class PostRepository extends BaseRepository implements CacheableInterface {
 
@@ -827,9 +827,9 @@ You can change the cache settings in the file *config/repository.php* and also d
 It is possible to override these settings directly in the repository.
 
 ```php
-use Prettus\Repository\Eloquent\BaseRepository;
-use Prettus\Repository\Contracts\CacheableInterface;
-use Prettus\Repository\Traits\CacheableRepository;
+use MoloPrettus\Repository\Eloquent\BaseRepository;
+use MoloPrettus\Repository\Contracts\CacheableInterface;
+use MoloPrettus\Repository\Traits\CacheableRepository;
 
 class PostRepository extends BaseRepository implements CacheableInterface {
 
@@ -901,8 +901,8 @@ class PostValidator extends LaravelValidator {
 ##### Enabling Validator in your Repository
 
 ```php
-use Prettus\Repository\Eloquent\BaseRepository;
-use Prettus\Repository\Criteria\RequestCriteria;
+use MoloPrettus\Repository\Eloquent\BaseRepository;
+use MoloPrettus\Repository\Criteria\RequestCriteria;
 
 class PostRepository extends BaseRepository {
 
@@ -932,9 +932,9 @@ class PostRepository extends BaseRepository {
 Alternatively, instead of using a class to define its validation rules, you can set your rules directly into the rules repository property, it will have the same effect as a Validation class.
 
 ```php
-use Prettus\Repository\Eloquent\BaseRepository;
-use Prettus\Repository\Criteria\RequestCriteria;
-use Prettus\Validator\Contracts\ValidatorInterface;
+use MoloPrettus\Repository\Eloquent\BaseRepository;
+use MoloPrettus\Repository\Criteria\RequestCriteria;
+use MoloPrettus\Validator\Contracts\ValidatorInterface;
 
 class PostRepository extends BaseRepository {
 
@@ -1017,7 +1017,7 @@ The command will prompt you for creating a Transformer too if you haven't alread
 ###### Create a Presenter
 
 ```php
-use Prettus\Repository\Presenter\FractalPresenter;
+use MoloPrettus\Repository\Presenter\FractalPresenter;
 
 class PostPresenter extends FractalPresenter {
 
@@ -1036,7 +1036,7 @@ class PostPresenter extends FractalPresenter {
 ###### Enabling in your Repository
 
 ```php
-use Prettus\Repository\Eloquent\BaseRepository;
+use MoloPrettus\Repository\Eloquent\BaseRepository;
 
 class PostRepository extends BaseRepository {
 
@@ -1065,8 +1065,8 @@ In your model, implement the interface `Prettus\Repository\Contracts\Presentable
 ```php
 namespace App;
 
-use Prettus\Repository\Contracts\Presentable;
-use Prettus\Repository\Traits\PresentableTrait;
+use MoloPrettus\Repository\Contracts\Presentable;
+use MoloPrettus\Repository\Traits\PresentableTrait;
 
 class Post extends Eloquent implements Presentable {
 
@@ -1106,7 +1106,7 @@ print_r( $post->presenter() ); //It produces an output as array
 You can skip the presenter at every visit and use it on demand directly into the model, for it set the `$skipPresenter` attribute to true in your repository:
 
 ```php
-use Prettus\Repository\Eloquent\BaseRepository;
+use MoloPrettus\Repository\Eloquent\BaseRepository;
 
 class PostRepository extends BaseRepository {
 
@@ -1129,7 +1129,7 @@ class PostRepository extends BaseRepository {
 ```php
 namespace App;
 
-use Prettus\Repository\Contracts\Transformable;
+use MoloPrettus\Repository\Contracts\Transformable;
 
 class Post extends Eloquent implements Transformable {
      ...
@@ -1152,7 +1152,7 @@ class Post extends Eloquent implements Transformable {
 `Prettus\Repository\Presenter\ModelFractalPresenter` is a Presenter default for Models implementing Transformable
 
 ```php
-use Prettus\Repository\Eloquent\BaseRepository;
+use MoloPrettus\Repository\Eloquent\BaseRepository;
 
 class PostRepository extends BaseRepository {
 

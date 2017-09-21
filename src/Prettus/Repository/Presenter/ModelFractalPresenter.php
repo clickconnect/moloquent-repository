@@ -1,8 +1,8 @@
 <?php
-namespace Prettus\Repository\Presenter;
+namespace MoloPrettus\Repository\Presenter;
 
 use Exception;
-use Prettus\Repository\Transformer\ModelTransformer;
+use MoloPrettus\Repository\Transformer\ModelTransformer;
 
 /**
  * Class ModelFractalPresenter

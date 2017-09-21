@@ -1,7 +1,7 @@
 <?php
-namespace Prettus\Repository\Generators;
+namespace MoloPrettus\Repository\Generators;
 
-use Prettus\Repository\Generators\Migrations\SchemaParser;
+use MoloPrettus\Repository\Generators\Migrations\SchemaParser;
 
 /**
  * Class RepositoryEloquentGenerator

@@ -5,8 +5,8 @@ $NAMESPACE$
 use Illuminate\Http\Request;
 
 use $APPNAME$Http\Requests;
-use Prettus\Validator\Contracts\ValidatorInterface;
-use Prettus\Validator\Exceptions\ValidatorException;
+use MoloPrettus\Validator\Contracts\ValidatorInterface;
+use MoloPrettus\Validator\Exceptions\ValidatorException;
 use $APPNAME$Http\Requests\$CLASS$CreateRequest;
 use $APPNAME$Http\Requests\$CLASS$UpdateRequest;
 $REPOSITORY$

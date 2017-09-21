@@ -1,11 +1,11 @@
 <?php
-namespace Prettus\Repository\Criteria;
+namespace MoloPrettus\Repository\Criteria;
 
 use Illuminate\Database\Eloquent\Builder;
 use Moloquent\Eloquent\Model;
 use Illuminate\Http\Request;
-use Prettus\Repository\Contracts\CriteriaInterface;
-use Prettus\Repository\Contracts\RepositoryInterface;
+use MoloPrettus\Repository\Contracts\CriteriaInterface;
+use MoloPrettus\Repository\Contracts\RepositoryInterface;
 
 /**
  * Class RequestCriteria

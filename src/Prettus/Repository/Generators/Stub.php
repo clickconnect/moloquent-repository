@@ -1,6 +1,6 @@
 <?php
 
-namespace Prettus\Repository\Generators;
+namespace MoloPrettus\Repository\Generators;
 
 /**
  * Class Stub

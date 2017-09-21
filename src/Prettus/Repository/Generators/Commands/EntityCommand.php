@@ -1,5 +1,5 @@
 <?php
-namespace Prettus\Repository\Generators\Commands;
+namespace MoloPrettus\Repository\Generators\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;

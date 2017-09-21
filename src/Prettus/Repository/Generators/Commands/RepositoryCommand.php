@@ -1,13 +1,13 @@
 <?php
-namespace Prettus\Repository\Generators\Commands;
+namespace MoloPrettus\Repository\Generators\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
-use Prettus\Repository\Generators\FileAlreadyExistsException;
-use Prettus\Repository\Generators\MigrationGenerator;
-use Prettus\Repository\Generators\ModelGenerator;
-use Prettus\Repository\Generators\RepositoryEloquentGenerator;
-use Prettus\Repository\Generators\RepositoryInterfaceGenerator;
+use MoloPrettus\Repository\Generators\FileAlreadyExistsException;
+use MoloPrettus\Repository\Generators\MigrationGenerator;
+use MoloPrettus\Repository\Generators\ModelGenerator;
+use MoloPrettus\Repository\Generators\RepositoryEloquentGenerator;
+use MoloPrettus\Repository\Generators\RepositoryInterfaceGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

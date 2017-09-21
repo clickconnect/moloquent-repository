@@ -1,9 +1,9 @@
 <?php
 
-namespace Prettus\Repository\Traits;
+namespace MoloPrettus\Repository\Traits;
 
 use Illuminate\Support\Arr;
-use Prettus\Repository\Contracts\PresenterInterface;
+use MoloPrettus\Repository\Contracts\PresenterInterface;
 
 /**
  * Class PresentableTrait

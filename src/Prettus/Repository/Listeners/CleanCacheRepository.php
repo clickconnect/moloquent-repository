@@ -1,14 +1,14 @@
 <?php
 
-namespace Prettus\Repository\Listeners;
+namespace MoloPrettus\Repository\Listeners;
 
 use Illuminate\Contracts\Cache\Repository as CacheRepository;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Log;
-use Prettus\Repository\Contracts\RepositoryInterface;
-use Prettus\Repository\Events\RepositoryEventBase;
-use Prettus\Repository\Helpers\CacheKeys;
+use MoloPrettus\Repository\Contracts\RepositoryInterface;
+use MoloPrettus\Repository\Events\RepositoryEventBase;
+use MoloPrettus\Repository\Helpers\CacheKeys;
 
 /**
  * Class CleanCacheRepository

@@ -1,5 +1,5 @@
 <?php
-namespace Prettus\Repository\Eloquent;
+namespace MoloPrettus\Repository\Eloquent;
 
 use Closure;
 use Exception;
@@ -8,18 +8,18 @@ use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Database\Eloquent\Builder;
 use Moloquent\Eloquent\Model;
 use Illuminate\Support\Collection;
-use Prettus\Repository\Contracts\CriteriaInterface;
-use Prettus\Repository\Contracts\Presentable;
-use Prettus\Repository\Contracts\PresentableInterface;
-use Prettus\Repository\Contracts\PresenterInterface;
-use Prettus\Repository\Contracts\RepositoryCriteriaInterface;
-use Prettus\Repository\Contracts\RepositoryInterface;
-use Prettus\Repository\Events\RepositoryEntityCreated;
-use Prettus\Repository\Events\RepositoryEntityDeleted;
-use Prettus\Repository\Events\RepositoryEntityUpdated;
-use Prettus\Repository\Exceptions\RepositoryException;
-use Prettus\Validator\Contracts\ValidatorInterface;
-use Prettus\Validator\Exceptions\ValidatorException;
+use MoloPrettus\Repository\Contracts\CriteriaInterface;
+use MoloPrettus\Repository\Contracts\Presentable;
+use MoloPrettus\Repository\Contracts\PresentableInterface;
+use MoloPrettus\Repository\Contracts\PresenterInterface;
+use MoloPrettus\Repository\Contracts\RepositoryCriteriaInterface;
+use MoloPrettus\Repository\Contracts\RepositoryInterface;
+use MoloPrettus\Repository\Events\RepositoryEntityCreated;
+use MoloPrettus\Repository\Events\RepositoryEntityDeleted;
+use MoloPrettus\Repository\Events\RepositoryEntityUpdated;
+use MoloPrettus\Repository\Exceptions\RepositoryException;
+use MoloPrettus\Validator\Contracts\ValidatorInterface;
+use MoloPrettus\Validator\Exceptions\ValidatorException;
 
 /**
  * Class BaseRepository

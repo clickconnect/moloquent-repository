@@ -1,6 +1,6 @@
 <?php
 
-namespace Prettus\Repository\Helpers;
+namespace MoloPrettus\Repository\Helpers;
 
 /**
  * Class CacheKeys

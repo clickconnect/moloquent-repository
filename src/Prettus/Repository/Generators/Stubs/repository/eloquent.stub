@@ -2,8 +2,8 @@
 
 $NAMESPACE$
 
-use Prettus\Repository\Eloquent\BaseRepository;
-use Prettus\Repository\Criteria\RequestCriteria;
+use MoloPrettus\Repository\Eloquent\BaseRepository;
+use MoloPrettus\Repository\Criteria\RequestCriteria;
 use $REPOSITORY$
 use $MODEL$;
 $USE_VALIDATOR$

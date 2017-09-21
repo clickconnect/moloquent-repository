@@ -1,8 +1,8 @@
 <?php
-namespace Prettus\Repository\Events;
+namespace MoloPrettus\Repository\Events;
 
 use Moloquent\Eloquent\Model;
-use Prettus\Repository\Contracts\RepositoryInterface;
+use MoloPrettus\Repository\Contracts\RepositoryInterface;
 
 /**
  * Class RepositoryEventBase

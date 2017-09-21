@@ -1,5 +1,5 @@
 <?php
-namespace Prettus\Repository\Generators\Migrations;
+namespace MoloPrettus\Repository\Generators\Migrations;
 
 use Illuminate\Contracts\Support\Arrayable;
 
