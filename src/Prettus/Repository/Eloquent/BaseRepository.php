@@ -18,8 +18,8 @@ use MoloPrettus\Repository\Events\RepositoryEntityCreated;
 use MoloPrettus\Repository\Events\RepositoryEntityDeleted;
 use MoloPrettus\Repository\Events\RepositoryEntityUpdated;
 use MoloPrettus\Repository\Exceptions\RepositoryException;
-use MoloPrettus\Validator\Contracts\ValidatorInterface;
-use MoloPrettus\Validator\Exceptions\ValidatorException;
+use Prettus\Validator\Contracts\ValidatorInterface;
+use Prettus\Validator\Exceptions\ValidatorException;
 
 /**
  * Class BaseRepository
